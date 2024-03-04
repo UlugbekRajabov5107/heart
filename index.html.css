@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+html, body{
+    overflow-x: hidden !important;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: url(./section_one_bg.jpg);
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.head{
+   
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.bir{
+   
+}
+.ikki{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 50%;
+    /* margin-top: 20px; */
+    font-size: 20px;
+}
+.nav-item{
+    list-style-type: none;
+}
+a{
+    color: white !important;
+    text-decoration: none;
+}
+.uch{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+    width: 20%;
+}
+.orta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 65px;
+    margin-top: 160px;
+    width: 100%;
+}
+h1{
+  margin-top: 0;
+}
+.pas{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 0; 
+}
+.yozuv{
+    color: darkslateblue;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.page1{
+    margin-top: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+.bla{ 
+    margin-top: 45%; 
+}
+.kok{
+    background-color: darkcyan;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    z-index: 1;
+    width: 100%;
+}
+.yozuv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;
+   padding: 50px;
+   font-size: 25px;
+   z-index: 1;
+   margin-left: -5%;
+    position: relative;
+    width: 100%;
+}
+.orqa{
+    position: absolute;
+    content: "";
+    font-size: 98px;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    margin-left: 1%;
+    padding: 70px;
+    width: 100%;
+}
+.koki{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 80%;
+    margin-left: 10%; 
+    color: white;
+    margin-top: 90px;
+}
+
+.bir1{
+    background-color: cadetblue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bir3{
+    background-color: cadetblue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bir4{
+    background-color: cadetblue;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tor{
+    display: flex;
+}
+.blak{
+    background-color: black;
+    height: 80vh;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jan{
+    display: flex;
+}
+.son{
+    border-right: solid white 1px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 21%;
+}
+.ram{
+    width: 50%;
+    height: 80vh;
+}
+.kk{
+    width: 70%;
+    margin-left: 10%;
+}
+.tor1{
+    display: flex;
+}
+.blak2{
+    background-color: whitesmoke;
+    height: 67vh;
+    color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bol{
+    height: 100vh;
+    width: 100%;
+}
+.yoz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+.ol{
+    position: absolute;
+    content: "";
+    font-size: 95px;
+    color: darkgray;
+    z-index: -1;
+    margin-top: -6%;
+}
+.umum{
+    display: flex;
+    justify-content: space-around;
+}
+.rasm1{
+    width: 20%;
+    height: 40%;
+}
+.rang{
+    color: gray;
+}
+.blu{
+    color: rgb(93, 93, 166);
+}
+.yarm{
+    background-color:cadetblue ;
+    display: flex;
+    height: 30vh;
+}
+.oz{
+    display: flex;
+    align-items: center;
+}
+.um{
+    background-color:cadetblue ;
+    display: flex;
+    color: bisque;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+    justify-content: space-around;
+}
+.im{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./workplace.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.os{
+    width: 40%;
+}
+.oq{
+    color: white;
+}
+button{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+.kalta{
+    width: 200px;
+}
+.or{
+    width: 250px;
+}
+.uzun{
+    width: 300px;
+}
+.dunyo{
+    height: 100vh;
+}
+.tepa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 25px;
+    position: relative;
+    z-index: 7;
+}
+.ti{
+    font-size: 100px;
+    height: 80px;
+    color: darkgray;
+    position: absolute;
+    content: "";
+    z-index: -7;
+    margin-top: -11%;
+}
+.un{
+    display: flex;
+    justify-content: space-around;
+}
+.john{
+    background-color: beige;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin-top: -12%;
+    position: relative;
+    margin-left: 5%;
+    padding: 10%;
+    color: blue;
+    flex-direction: column;
+}
+h5{
+    color: black;
+}
+.qora{
+    background-image: url(./forms-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    width: 100%;
+    color: white;
+}
+.ccc{
+    margin-left: 10%;
+    font-size: 30px;
+}
+.wrap{
+    width: 100%;
+    margin-left: 20%;
+}
+input{
+    background-color: transparent;
+    border: solid white 1px;
+}
+.kat{
+    padding: 5%;
+    width: 50%;
+    margin-left: 11%;
+}
+.inn{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-left:10% ;
+}
+.input{
+    background-color: transparent;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    background-color: blue;
+    color: beige;
+    padding: 8px;
+    width: 100px;
+    border: 0;
+}
+.menu{
+    display: none;
+}
+.menucha
+{
+    display: none;
+}
+/* @media(max-width:500px){
+    .home{
+        width: 100%;
+
+    }
+    .menu{
+        display: block;
+    }
+    .nav-item{
+        display: none;
+    }
+    .fab{
+        display: none !important;
+    }
+    .bi-twitter, .bi-facebook{
+         display: none;
+    }
+    .orta h1{
+        font-size: 40px;
+    }
+    .yozuv{
+        padding-top: -25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        height: 10vh;
+        width: 100%;
+        letter-spacing: 0;
+    }
+    .orta{
+        margin-top: 10%;
+    }
+    .bla{
+        font-size: 1px;
+    }
+    .home{
+        height: 43vh;
+    } */
+    @media(max-width :1200px) and (min-width: 1000px)
+    {
+        .home
+        {
+            height: 69vh;
+        }
+        .bla
+        {
+            margin-top: 20%;
+        }
+        .kok
+        {
+            height: 45vh;
+        }
+        .kok1,.kok2,.kok3,.kok4
+        {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 150px;
+        }
+        .tor .ram img
+        {
+         height: 100%;
+        }
+        .blak
+        {
+         height: 50vh;
+        }
+        .ram{
+         height: 50vh;
+        }
+        .blak2
+        {
+         height: 50vh;
+        }
+        .tor1 .ram img
+        {
+         height: 100%;
+        }
+        .bol
+        {
+            height: 75vh;
+        }
+        .yoz
+        {
+            margin-top: 10%;
+        }
+        .dunyo
+        {
+            height: 75vh;
+        }
+        .ti
+        {
+            margin-bottom: 4%;
+        }
+        .qora
+        {
+            height: 60vh;
+        }
+        input
+        {
+         width: 155px;
+        }
+        .inn
+        {
+         display: flex;
+         justify-content: space-around;
+         width: 80%;
+         margin-left: -7%;
+        }
+        .kat
+        {
+         margin-left: -3.55%;
+         width: 527px;
+        }
+        .menucha
+        {
+            display: none;
+        }
+    }
+
+@media(max-width :1000px) and (min-width: 800px)
+{
+    .orqa{
+        padding: 0;
+    }
+    .yozuv1{
+        padding: 0;
+        padding-top: 50px;
+        width: 110%;
+    }
+   .home{
+    width: 100%;
+    height: 81vh;
+    background-size: auto;
+   } 
+   .ikki
+   {
+    font-size: 15px;
+   }
+   .pas
+   {
+    margin-top: -5%;
+   }
+
+   .orta h1
+   {
+    font-size: 98px;
+    margin-top: 20%;
+   }
+   .yozuv h2
+   {
+    font-size: 35px;
+   }
+   .yozuv{
+    margin-top: 10%;
+   }
+   .bla
+   {
+    margin-top: 20%;
+   }
+   .orta
+   {
+    margin-top: -4%;
+   }
+   .kok
+   {
+    height: 50vh;
+    background-color: aqua;
+   }
+   .kok1,.kok2,.kok3,.kok4
+   {
+       align-items: center;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       width: 150px;
+   }
+   .umumiy
+   {
+    /* margin-top: 4%; */
+    /* margin: 1%; */
+    height: 100%;
+   }
+   .koki{
+    width: 100%;
+    height: 30%;
+    margin-left: 0;
+   }
+   .blak
+   {
+    height: 50vh;
+   }
+   .ram{
+    height: 50vh;
+   }
+   .blak2
+   {
+    height: 50vh;
+   }
+   .tor1 .ram img
+   {
+    height: 100%;
+   }
+   .yoz
+   {
+    margin-top: 5%;
+   }
+   .yoz h1
+   {
+    margin-top: 2%;
+   }
+   .bol
+   {
+    height: 60vh;
+   }
+   .im
+   {
+    height: 82vh;
+   }
+   .iphone img
+   {
+    width: 300px;
+   }
+   .umum
+   {
+    font-size: 13px;
+   }
+   .oz
+   {
+    font-size: 13px;
+   }
+   .oz svg
+   {
+    width: 250px;
+    height: 250px;
+   }
+   .ti
+   {
+    margin-top: -22%;
+   }
+   .dunyo
+   {
+    height: 50vh;
+   }
+   .un
+   {
+    margin-top: -5%;
+   }
+   .un img
+   {
+    width: 150px;
+   }
+   .john
+   {
+    padding: 5%;
+    margin-left: 12%;
+   }
+   .qora
+   {
+    height: 47vh;
+   }
+    input
+   {
+    width: 155px;
+   }
+   .inn
+   {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: -7%;
+   }
+   .kat
+   {
+    margin-left: -3.55%;
+    width: 527px;
+   }
+   .menucha
+   {
+    display: none;
+   }
+}
+@media(max-width :800px) and (min-width: 650px)
+{
+    .home
+    {
+        height: 65vh;
+        background-size: auto;
+    }
+    .bir
+    {
+        width: 35px;
+    }
+    .ikki
+    {
+        font-size: 13px;
+    }
+    .pas
+    {
+        margin-top: -10%;
+    }
+    .orta h1
+    {
+        font-size: 65px;
+    }
+    .yozuv h2
+    {
+        letter-spacing: 5px;
+        font-size: 25px;
+    }
+    .bla
+    {
+        margin-top: 50%;
+    }
+    .kok
+    {
+        height: 40vh;
+    }
+    .yozuv1 h1
+    {
+        margin-top: 8%;
+    }
+    .yozuv1
+    {
+       
+        padding: 0;
+        margin-left: 0;
+    }
+    .orqa
+    {
+        margin-top: 10%;
+        padding: 0;
+        margin-left: 0;
+    }
+    .koki
+    {
+        margin-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+    .kok1 p
+    {
+        font-size: 14px;
+    }
+    .kok2 p
+    {
+        font-size: 14px;
+    }
+    .kok3 p
+    {
+        font-size: 14px;
+    }
+    .kok4 p
+    {
+        font-size: 14px;
+    }
+    .kok1
+    {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+    }
+    .kok2
+    {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+        width: 150px;
+    }
+    .kok3
+    {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+        width: 150px;
+    }
+    .kok4
+    {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 150px;
+        width: 150px;
+    }
+    .blak
+    {
+        height: 50vh;
+    }
+    .ram{
+        height: 50vh;
+    }
+    .kk
+    {
+        font-size: 14px;
+    }
+    .blak2
+    {
+        height: 50vh;
+    }
+    .ram img
+    {
+        height: 100%;
+    }
+    .bol
+    {
+        height: 65vh;
+    }
+    .yoz
+    {
+        margin-top: 5%;
+    }
+    .yoz h1
+    {
+        margin-top: 5%;
+    }
+    .umum
+    {
+        font-size: 14px;
+    }
+    .oz p
+    {
+        font-size: 14px;
+    }
+    .oz svg
+    {
+        width: 300px;
+    }
+    .um
+    {
+        margin-left: 0;
+       justify-content: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .oz
+    {
+        width: 300px;
+    }
+    .iphone img
+    {
+        width: 200px;
+        height: 300px;
+    }
+    .im
+    {
+        height: 43vh;
+    }
+    .oq
+    {
+        height: 220px;
+        font-size: 14px;
+    }
+    .dunyo:nth-child(1) br
+    {
+        display: none;
+    }
+    .dunyo
+    {
+        font-size: 14px;
+        height: 52vh;
+    }
+    .tepa
+    {
+        margin-top: 10%;
+    }
+    .ti
+    {
+        margin-top: -23%;
+    }
+    .un div
+    {
+        width: 150px;
+        margin-top: -1%;
+    }
+    .un .john
+    {
+        width: 70%;
+        background-color: red;
+        margin-top: -17%;
+    }
+    .qora
+    {
+        height: 35vh;
+    }
+    .wrap
+    {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sub
+    {
+        margin-left: 7%;
+    }
+    .inn
+    {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .input 
+    {
+        width: 92px;
+    }
+    .kat
+    {
+        margin-left: 10%;
+        width: 360px;
+    }
+    .menucha
+    {
+        display: none;
+    }
+}
+@media(max-width :650px) and (min-width: 500px)
+{
+    .head .bir, .head .ikki , .head .uch
+    {
+        font-size: 12px;
+    }
+    .bir img
+    {
+        width: 40px;
+    }
+    .orta
+    {
+        font-size: 45px;
+    }
+    .yozuv
+    {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .pas
+    {
+        margin-top: -15%;
+    }
+    .bla
+    {
+        margin-top: 25%;
+    }
+    .home
+    {
+        height: 55vh;
+         background-size: auto;
+    }
+    .koki
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+    }
+    .kok1,.kok2,.kok3, .kok4
+    {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        align-items:center ;
+    }
+    .kok
+    {
+        height: 72vh;
+    }
+    .bir1
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .blak,.blak2
+    {
+        height: 40vh;
+    }
+    .ram img
+    {
+        height: 40vh;
+    }
+    .ram 
+    {
+        height: 40vh;
+    }
+    .kk
+    {
+        font-size: 10px;
+    }
+    .orqa
+    {
+        margin-left: -5%;
+    }
+    .umum
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+    }
+    .rasm1,.rasm2,.rasm3,.rasm4
+    {
+        width: 40%;
+        font-size: 12px;
+    }
+    .bol
+    {
+        height: 96vh;
+    }
+    .yoz h1
+    {
+        margin-top: 8%;
+    }
+    .yarm
+    {
+        height: 50vh;
+    }
+    .um{
+        
+        flex-wrap: wrap;
+    }
+    .oz svg
+    {
+        width: 12%;
+        margin-right: 5%;
+    }
+    .oz p
+    {
+        width: 60%;
+
+    }
+    .iphone img
+    {
+        width: 300px;
+    }
+    .yoz h1
+    {
+        margin-top: 8%;
+    }
+    .im
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;  
+        height: 113vh;
+    }
+    .os
+    {
+        width: 70%;
+    }
+    .uzun
+    {
+        width: 200px;
+    }
+    .or
+    {
+        width: 175px;
+    }
+    .kalta
+    {
+        width: 150px;
+    }
+    .ti
+    {
+        margin-top: -35%;
+    }
+    .un div
+    {
+        width: 240px;
+    }
+    .un
+    {
+        flex-wrap: wrap;
+    }
+    .dunyo
+    {
+        height: 115vh;
+    }
+    .qora
+    {
+        height: 30vh;
+    }
+    .wrap
+    {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ccc
+    {
+        margin-top: 5%;
+    }
+    .sub
+    {
+        margin-left: 7%;
+        margin-bottom: 5%;
+    }
+    .inn
+    {
+        width: 77%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .input 
+    {
+        width: 92px;
+    }
+    .kat
+    {
+        margin-left: 10%;
+        width: 360px;
+    }
+    .menucha
+    {
+        display: none;
+    }
+}
+@media(max-width :500px) and (min-width: 350px)
+{
+    
+    .ikki
+    {
+        display: none;
+    }
+    .uch
+    {
+        display: none;
+    }
+    .menucha
+    {
+        display: block;
+        color: white;
+        margin-bottom: 10%;
+    }
+    .head .bir, .head .ikki , .head .uch
+    {
+        font-size: 12px;
+        margin-top: -7%;
+        height: 20%;
+    }
+    .bir img
+    {
+        margin-top: -55%;
+        width: 30px;
+    }
+    hr
+    {
+        margin-top: -10%;
+    }
+    .orta
+    {
+        font-size: 30px;
+        margin-top: 27%;
+    }
+    .yozuv
+    {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    .pas
+    {
+        margin-top: -15%;
+    }
+    .bla
+    {
+        margin-top: 20%;
+    }
+    .home
+    {
+        height: 35vh;
+        background-size: auto;
+    }
+    .nav-item
+    {
+        font-size: 8px;
+    }
+    .kok
+    {
+        height: 72vh;
+    }
+    .yozuv1
+    {
+        margin-left: -11%;
+        font-size: 18px;
+    }.umumiy
+    {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .koki
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+    }
+    .kok1,.kok2,.kok3, .kok4
+    {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        align-items:center ;
+    }
+    .orqa
+    {
+        margin-top: 3%;
+    }
+    .tor
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+    }
+    .blak,.blak2
+    {
+        width: 100%;
+        height: 40vh;
+    }
+    .ram
+    {
+        width: 100%;
+        height: 40vh;
+    }
+    .tor1
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+    }
+    .umum
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+    }
+    .rasm1,.rasm2,.rasm3, .rasm4
+    {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 2%;
+        align-items:center ;
+        height: 20%;
+    }
+    .jan
+    {
+        margin-top: 5%;
+    }
+    .bol
+    {
+        height: 206vh;
+    }
+    .um
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;  
+    }
+    .oz
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .oz svg
+    {
+        width: 30%;
+    }
+    .yarm
+    {
+        height: 48vh;
+    }
+    .iphone img
+    {
+        width: 300px;
+    }
+    .yoz h1
+    {
+        margin-top: 18%;
+    }
+    .im
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;  
+        height: 113vh;
+    }
+    .uzun
+    {
+        width: 200px;
+    }
+    .or
+    {
+        width: 175px;
+    }
+    .kalta
+    {
+        width: 150px;
+    }
+    .un
+    {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        margin: 0;  
+        height: 150vh;
+    }
+    .dunyo
+    {
+        height: 222vh;
+    }
+    .john
+    {
+        margin-bottom: 2%;
+    }
+    .tepa p
+    {
+        text-align: center;
+    }
+    .tepa h2
+    {
+        margin-top: 1%;
+    }
+    .ti
+    {
+        margin-top: -55%;
+    }
+    .qora
+    {
+        height: 55vh;
+        background-size: auto;
+    }
+    .inn
+    {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .qora h1
+    {
+        font-size: 15px;
+    }
+    .sub
+    {
+        margin-left: 27%;
+    }
+    .inn input
+    {
+        margin-bottom: 5%;
+    }
+}
